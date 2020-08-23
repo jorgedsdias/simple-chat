@@ -1,10 +1,13 @@
 {
   "name": "simple-chat",
   "version": "1.0.0",
+  "homepage": "https://jorgedsdias.github.io/simple-chat",
   "description": "A simple NodeJS and Socket.io chat script",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"    
   },
   "author": "Jorge Dias <jorgedsdias@gmail.com>",
   "license": "MIT",
@@ -13,5 +16,8 @@
     "jquery": "^3.5.1",
     "socket.io": "^2.3.0",
     "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
