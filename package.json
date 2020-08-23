@@ -1,0 +1,14 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "A simple NodeJS and Socket.io chat script",
+  "main": "index.js",
+  "author": "Jorge Dias <jorgedsdias@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  }
+}

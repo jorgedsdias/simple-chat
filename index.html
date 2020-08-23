@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="nickname_container" id="nick">
+        <span>Type your nickname:</span>
+        <form id="submit"><input type="text" id="nickname" /></form>
+    </div>
+
+    <div id="chat" hidden>
+        <div class="name" id="name">Alex</div>
+        <div class="time" id="time">12:40</div>
+
+        <ol class="chat"></ol>
+        <div id="bottom"></div>
+        <input class="textarea" id="textarea" type="text" placeholder="Type here!">
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
