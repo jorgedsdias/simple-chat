@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    let socket = io.connect('http://localhost:3000');
+    let socket = io.connect('https://simple-chat-2.herokuapp.com');
     let ready = false;
 
     $('#submit').submit(function(e) {
